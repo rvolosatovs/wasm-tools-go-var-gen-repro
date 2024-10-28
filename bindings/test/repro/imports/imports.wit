@@ -1,0 +1,10 @@
+package test:repro;
+
+interface repro {
+	variant var { var(u8) }
+	foo: func(var: var);
+}
+
+world imports {
+	import repro;
+}
